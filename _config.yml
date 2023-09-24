@@ -174,7 +174,6 @@ compress_html:
   blanklines: false
   ignore:
     envs: [development]
-gem: [jekyll-admin]
 exclude:
   - "*.gem"
   - "*.gemspec"
