@@ -5,6 +5,7 @@ title: Cấu trúc cơ bản của một Chrome Extension
 ![](https://wd.imgix.net/image/BrQidfK9jaQyIHwdw91aVpkPiib2/CNDAVsTnJeSskIXVnSQV.png?auto=format)
 
 Để xây dựng một browser extension, bạn cần hiểu về cấu trúc cơ bản của nó.
+
 **1. manifest.json:**
 manifest.json là một tệp cấu hình chính của tiện ích. Nó chứa các thông tin cơ bản như tên, phiên bản, quyền truy cập và các tài nguyên khác. Đây cũng là nơi bạn định nghĩa các UI component (như icon, popup, options page) và các sự kiện
 
