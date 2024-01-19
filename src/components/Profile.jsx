@@ -5,17 +5,6 @@ import { getConfigData } from '../data/configReader';
 export default function Profile() {
   const configData = getConfigData();
 
-  const workStatusTextClass =
-    configData.status == 'on'
-      ? 'bg-[#d0fadf] text-[#109d5c] rounded-full uppercase px-[0.60rem] py-[0.60rem] md:px-2 md:py-1 font-medium'
-      : 'bg-[#ff9d9d] text-[#f74d4d] rounded-full uppercase px-[0.60rem] py-[0.60rem] md:px-2 md:py-1 font-medium';
-  const workStatusClass =
-    configData.status == 'on'
-      ? 'w-1.5 h-1.5 bg-[#109d5c] rounded-full'
-      : 'w-1.5 h-1.5 bg-[#f74d4d] rounded-full';
-  const workStatusText =
-    configData.status == 'on' ? 'avaılable for work' : 'busy';
-
   return (
     <>
       <div className='flex items-center justify-between px-7 py-7'>
@@ -23,10 +12,18 @@ export default function Profile() {
           <div className='w-1.5 h-1.5 bg-gray-400 rounded-full'></div>
           {configData.job}
         </div>
-        <div className={workStatusTextClass}>
-          <div className='text-sm font-medium flex items-center gap-x-1'>
-            <div className={workStatusClass}></div>
-            <span className='hidden md:block'>{workStatusText}</span>
+        <div
+          className={
+            'bg-[#d0fadf] text-[#109d5c] rounded-full uppercase px-[0.60rem] py-[0.60rem] md:px-2 md:py-1 font-medium'
+          }
+        >
+          <div className='text-sm font-medium flex items-center gap-x-1 px-3'>
+            <span className='hidden md:block'>
+              I am{' '}
+              <a href='https://x.com/quangpl99' target='_blank'>
+                here
+              </a>
+            </span>
           </div>
         </div>
       </div>

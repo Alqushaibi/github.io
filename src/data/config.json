@@ -1,20 +1,20 @@
 {
   "job": "Software Engineer",
-  "name": "Quang Phan",
+  "name": "Quang",
   "desc": "Enjoy life with ⌨️ and💡",
   "email": "phanlequang99@gmail.com",
   "status": "on",
   "hireMeLink": "https://x.com/quangpl99",
   "projects": [
     {
-      "project-image-url": "https://avatars.githubusercontent.com/u/36843088?v=4",
-      "project-name": "Quang",
-      "project-desc": "React + Tailwind Portfolio"
+      "project-image-url": "https://i.imgur.com/OszzzIF.png",
+      "project-name": "MarkX",
+      "project-desc": "Bookmarks and Highlights Manager"
     },
     {
-      "project-image-url": "https://avatars.githubusercontent.com/u/36843088?v=4",
-      "project-name": "Quang",
-      "project-desc": "React + Tailwind Portfolio"
+      "project-image-url": "https://i.imgur.com/CRobNaN.png",
+      "project-name": "JSON Toolbox",
+      "project-desc": "Effortless JSON Editing, Anywhere!"
     }
   ],
   "social": [
