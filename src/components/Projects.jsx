@@ -56,9 +56,10 @@ export default function Card() {
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
                 className='drop-shadow-md card bg-white rounded-lg px-5 py-3 gap-x-3 flex flex-col md:flex-none md:flex-row hover:-translate-y-1 hover:scale-100 duration-300 transition ease-in-out delay-150 hover:shadow-sm border border-gray-200 hover:border-gray-300'
-                href=''
+                href={project.url}
+                target='_blank'
               >
-                <div className='rounded-full overflow-hidden flex items-center justify-center border border-gray-200 hidden md:block'>
+                <div className='rounded-full overflow-hidden flex items-center justify-center border border-gray-200  md:block'>
                   <div className='card-image w-16 h-16 rounded-full overflow-hidden'>
                     <img
                       className='w-full h-full object-cover'

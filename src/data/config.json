@@ -9,12 +9,14 @@
     {
       "project-image-url": "https://i.imgur.com/OszzzIF.png",
       "project-name": "MarkX",
-      "project-desc": "Bookmarks and Highlights Manager"
+      "project-desc": "Bookmarks and Highlights Manager",
+      "url": "https://chromewebstore.google.com/detail/markx-bookmarks-and-highl/ialfchbhcgcgpbpcihmceabgnnfoknjc?hl=en"
     },
     {
       "project-image-url": "https://i.imgur.com/CRobNaN.png",
       "project-name": "JSON Toolbox",
-      "project-desc": "Effortless JSON Editing, Anywhere!"
+      "project-desc": "Effortless JSON Editing, Anywhere!",
+      "url": "https://chromewebstore.google.com/detail/json-toolbox/ldeginlonbaajghjihhmjegbebiideie?hl=en"
     }
   ],
   "social": [
