@@ -59,7 +59,7 @@ export default function Card() {
                 href={project.url}
                 target='_blank'
               >
-                <div className='rounded-full overflow-hidden flex items-center justify-center border border-gray-200  md:block'>
+                <div className='rounded-full overflow-hidden flex items-center justify-center  md:block'>
                   <div className='card-image w-16 h-16 rounded-full overflow-hidden'>
                     <img
                       className='w-full h-full object-cover'
@@ -69,10 +69,10 @@ export default function Card() {
                   </div>
                 </div>
                 <div className='flex flex-col justify-center'>
-                  <h1 className='font-medium text-lg'>
+                  <h1 className='font-medium text-lg text-center sm:text-left md:text-left'>
                     {project['project-name']}
                   </h1>
-                  <p className='text-gray-500 text-md'>
+                  <p className='text-gray-500 text-md text-center sm:text-left md:text-left'>
                     {project['project-desc']}
                   </p>
                 </div>
