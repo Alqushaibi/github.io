@@ -20,7 +20,7 @@ export default function Profile() {
           <div className='text-sm font-medium flex items-center gap-x-1 px-3'>
             <span className='hidden md:block'>
               I am{' '}
-              <a href='https://x.com/quangpl99' target='_blank'>
+              <a href='https://x.com/AlawiAlqushaibi' target='_blank'>
                 here
               </a>
             </span>

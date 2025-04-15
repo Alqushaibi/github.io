@@ -35,7 +35,7 @@ export default function Navbar() {
               </NavLink>
             </div>
             <div className='justify-center'>
-              <a href={'https://t.me/quangpl'} target='_blank'>
+              <a href={'https://t.me/alawiai'} target='_blank'>
                 <button
                   type='button'
                   className='gap-x-1 before:ease relative overflow-hidden border border-[#000000] bg-[#050708] text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:before:-translate-x-40 font-medium rounded-lg text-sm px-2 py-2 text-center inline-flex items-center mx-7'
