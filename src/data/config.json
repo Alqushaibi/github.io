@@ -1,42 +1,34 @@
 {
-  "job": "Software Engineer",
-  "name": "Quang",
-  "desc": "Enjoy life with ⌨️ and💡",
-  "email": "phanlequang99@gmail.com",
+  "job": "AI Researcher",
+  "name": "Alawi Alqushaibi",
+  "desc": "Researcher in AI and Machine Learning",
+  "aboutDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "email": "alawi.alqushaibi@gmail.com",
   "status": "on",
-  "hireMeLink": "https://x.com/quangpl99",
+  "hireMeLink": "https://twitter.com/alawi_alqushaibi",
   "projects": [
     {
-      "project-image-url": "https://i.imgur.com/OszzzIF.png",
-      "project-name": "MarkX",
-      "project-desc": "Bookmarks and Highlights Manager",
-      "url": "https://chromewebstore.google.com/detail/markx-bookmarks-and-highl/ialfchbhcgcgpbpcihmceabgnnfoknjc?hl=en"
-    },
-    {
-      "project-image-url": "https://i.imgur.com/CRobNaN.png",
-      "project-name": "JSON Toolbox",
-      "project-desc": "Effortless JSON Editing, Anywhere!",
-      "url": "https://chromewebstore.google.com/detail/json-toolbox/ldeginlonbaajghjihhmjegbebiideie?hl=en"
-    },
-    {
-      "project-image-url": "https://i.imgur.com/bsplehh.png",
-      "project-name": "Quick ChatGPT",
-      "project-desc": "Using ChatGPT in browser popup directly without tab switching.",
-      "url": "https://chrome.google.com/webstore/detail/kkchdjfkhmniamlkomjfeeiojacbcfoe?authuser=0&hl=en"
+      "project-image-url": "https://github.com/Alqushaibi",
+      "project-name": "Alawifolio",
+      "project-desc": "React + Tailwind Portfolio"
     }
   ],
   "social": [
     {
       "icon": "FaXTwitter",
-      "link": "https://twitter.com/quangpl99"
+      "link": "https://x.com"
+    },
+    {
+      "icon": "FaInstagram",
+      "link": "https://instagram.com"
     },
     {
       "icon": "FaGithub",
-      "link": "https://github.com/quangpl"
+      "link": "https://github.com"
     },
     {
       "icon": "FaLinkedinIn",
-      "link": "https://www.linkedin.com/in/quang-phan-53348a189/"
+      "link": "https://linkedin.com"
     }
   ]
 }
